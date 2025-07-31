@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+        <style>
+            div{
+                color: black;
+                background-color: rgb(242, 180, 127);
+                font-style:normal ;
+                padding-left: 100px;
+                font-size: larger;
+            }
+        </style>
+    </head>
+    <body>
+        <form method="POST">
+            {% csrf_token %}
+            <div>
+            <center><h1>REGISTER</h1></center><br>
+            <br>
+            <center><h3>register to start your journey @ UrbanFinds</h3></center>
+            <br>
+            <br>
+            <br>
+            <center><label>USERNAME:</label><input type="text" name="usrname"><br></center>
+            <br>
+            <br>
+            <br>
+            <center><label>PASSWORD:</label><input type="text" name="usrpwd"><br></center>
+            <br>
+            <center><button type="submit" value="submit">save</button></center>
+            </div>
+        </form>
+
+    </body>
+</html>

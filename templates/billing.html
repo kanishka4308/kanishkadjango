@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <style>
+        div{
+            background-color: cadetblue;
+        }
+    </style>
+    </head>
+    <body>
+        <form method="POST">
+        {% csrf_token %}
+        <div>
+        <center><h1><b><u><label>BILLING</label></b></u></h1></center>
+        <br>
+        <br>
+        <center><label>Product_Name:</label><input type="text" name="prdname"</center>
+        <br>
+        <br>
+        <br>
+        <center><label>prd_quantity:</label><input type="number" name="qty"</center>
+        <br>
+        <br>
+        <br>
+        <center><label>Current_Date:</label><input type="date" name="date"</center>
+        <br>
+        <br>
+        <br>
+        <center><label>Current_Place:</label><input type="text" name="place"</center>
+        <br>
+        <br>
+        <br>
+        <center><label>User_E-mail:</label><input type="email" name="email"</center>
+        <br>
+        <br>
+        <br>
+        <center><label>Delv_Adress:</label><input type="text" name="adress"</center>
+        <br>
+        <br>
+        <br>
+        <center><label>Phone_number:</label><input type="text" name="phn"</center>
+        <br>
+        <br>
+        <center><button type="submit" value="submit">save</button></center>    
+    </div>
+    </form>
+    </body>
+</html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+        <style>
+            h1
+            {
+              color:rgb(97, 166, 216)
+            }
+            p1
+            {
+              color:rgb(161, 86, 36)
+            }
+            p2
+            {
+              color: rgb(171, 100, 19);
+            }
+            div{
+              background-color: rgb(199, 224, 224);
+            }
+            div{
+              background-color: rgb(199, 224, 224);
+                        p3{
+              width:150px;
+              height:150px;
+              display:inline;
+              padding-left: 130px;
+            }
+            p3{
+              width:150px;
+              height:150px;
+              display:inline;
+              padding-left: 130px;
+            }
+            p3{
+              width:150px;
+              height:150px;
+              display:inline;
+              padding-left: 130px;
+            }
+            p4{
+              color:rgb(48, 48, 63)
+            }
+            p5{
+              width:150px;
+              height:150px;
+              display:inline;
+              padding-left: 130px;
+            }
+            p5{
+              width:150px;
+              height:150px;
+              display:inline;
+              padding-left: 130px;
+            }
+            p5{
+              width:150px;
+              height:150px;
+              display:inline;
+              padding-left: 130px;
+            }
+            p6{
+              width:150px;
+              height:150px;
+              display:inline;
+              padding-left: 200px;
+            }
+            p6{
+              width:150px;
+              height:150px;
+              display:inline;
+              padding-left: 250px;
+            }
+            }
+        </style>
+    </head>
+    <body>
+      {% load static %}
+        <nav class="navbar navbar-expand-lg bg-info">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">UrbanFinds</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="{% url 'display' %}">Display</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'login' %}">Login</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            others
+          </a>
+          <ul class="dropdown-menu bg-warning">
+            <li><a class="dropdown-item" href="{% url 'aboutus' %}">About us</a></li>
+            <li><a class="dropdown-item" href="{% url 'contact' %}">Contact</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="{% url 'help' %}">Help</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="UrbanFinds" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<div>
+<br>
+<br>
+<center><h1>UrbanFinds</h1></center>
+<br>
+<br>
+<center><p1><h5><b>"Serve looks, not limits — our dresses are made for bold moves and even bolder style."</p1></h5></b></center>
+<br>
+<center><p2><h5><i>"Low effort, high impact. These dresses do it all."</i></h5></p2></center><br>
+<br>
+<br>
+<br>
+</div>
+<div>
+  <p3><img src="https://images.unsplash.com/photo-1696451203117-4704b54a3851?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" height="400" width="250"></p3>
+  <p3><img src="https://images.unsplash.com/photo-1527189919029-aeb3d997547d?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjU4fHxwYXJ0eSUyMHdvbWVuJTIwZHJlc3N8ZW58MHx8MHx8fDA%3D" height="400" width="250"></p3>
+  <p3><img src="https://images.unsplash.com/photo-1626948683867-f1e940e63f0b?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGNhc3VhbCUyMHdvbWFufGVufDB8fDB8fHww" height="400" width="250"></p3>
+  <center><p4><b><i><h5>from Formals------------------------------------------>Party------------------------------------------->Casuals</h5></i></b></p4></center>
+  <br>
+  <br>
+  <hr color="red">
+  <br>
+  <br>
+  
+  <p5><img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Zm9ybWFsJTIwbWVufGVufDB8fDB8fHww" height="400" width="250"></p5>
+  <p5><img src="https://images.unsplash.com/photo-1741698464215-0dc2c5a5aac6?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8Mnx8fGVufDB8fHx8fA%3D%3D" height="400" width="250"></p5>
+  <p5><img src="https://images.unsplash.com/photo-1660227923729-2d5774912148?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fG1lbiUyMGJlYWNoJTIwZHJlc3N8ZW58MHx8MHx8fDA%3D" height="400" width="250"></p5>
+  <center><p4><b><i><h5>from Formals------------------------------------------>casual------------------------------------------->Beachboy</h5></i></b></p4></center>
+  <br>
+  <br>
+  <hr>
+  <br>
+  <br>
+  <p6><img src="https://plus.unsplash.com/premium_photo-1691367782576-316c6aa250d7?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" height="400" width="250"></p6>
+  <p6><img src="https://images.unsplash.com/photo-1603285756065-f56453dcaf0c?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGtpZCUyMGZhc2hpb258ZW58MHx8MHx8fDA%3D" height="400" width="350"></p6>
+  <center><p4><b><i><h5>boys  &  girls</h5></i></b></p4></center>
+  <br>
+  <br>
+</div>
+{% csrf_token %}
+{% load static %}
+    </body>
+</html>
